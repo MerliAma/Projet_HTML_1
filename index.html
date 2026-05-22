@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background-color="">
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section about -->
+    <section id="about">
+        <h1>About</h1>
+        <table>
+            <tr>
+                <!-- cellule photo --> 
+                <td><img src="images/photo.jpg" width="200" height="150"></td>
+                <!-- cellule intermédiaire --> 
+                <td> &nbsp; &nbsp; &nbsp;</td> 
+                <!-- cellule Informations personnelles --> 
+                <td>
+                    <h4>Merli Ama </h4>
+                    <h4>25 ans, Femme </h4>
+                    <h4>Célibataire sans enfants</h4>
+                    <h4>Ivoirienne</h4>
+                    <h4>(+225)01-02-03-04-05 / Merliama@gmail.com </h4>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Section work -->
+    <section id="work">
+        <h1>Work</h1>
+        <figure>
+           <img src="images/projet1.png" alt="Projet1" width="300" height="250">
+           <figcaption>Maintenance d'une application de Gestion de Facture</figcaption> 
+        </figure>
+        <figure>
+           <img src="images/projet2.png" alt="Projet2" width="300" height="250">
+           <figcaption>Developpement d'une application de Gestion du Personnel</figcaption> 
+        </figure>
+    </section>
+
+    <!-- Section resume -->
+    <section id="resume">
+        <h1>Resume</h1>
+        <!--Description du parcours --> 
+        <ul>
+            <li>
+                <dl> 
+                    <dt><b>2025 - 2026</b></dt>
+                    <dt>Troisième année de Licence Professionnelle en Réseaux
+        Génie Logiciel</dt>
+                    <dd><i>Ecole Informatique, Abidjan Plateau</i></dd>
+                    <dd>Obtention de la licence en Informatique</dd>
+                </dl>
+            </li>
+            <li>
+                <dl> 
+                    <dt><b>2024 - 2025</b></dt>
+                    <dt>Deuxième année de Licence Professionnelle en Réseaux
+        Génie Logiciel</dt>
+                    <dd><i>Ecole Informatique, Abidjan Plateau</i></dd>
+                    <dd>Admission au Brevet de Technicien Supérieur (BTS) en Informatique</dd>
+                </dl>
+            </li>
+            <li>
+                <dl> 
+                    <dt><b>2023 - 2024</b></dt>
+                    <dt>Première année de Licence Professionnelle en Réseaux
+        Génie Logiciel</dt>
+                    <dd><i>Ecole Informatique, Abidjan Plateau</i></dd>
+                </dl>
+            </li>
+            <li>
+                <dl> 
+                    <dt><b>2022 - 2023</b></dt>
+                    <dt>BACCALAUREAT Serie D</dt>
+                    <dd><i>Collège X, Abidjan Treichville</i></dd>
+                </dl>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section contact-->
+    <section id="contact">
+        <h1>Contact</h1>
+        <form>
+            <label>Nom : </label><br>
+            <input type="text" name="nom" placeholder="Entrez votre nom ici" required> <br><br>
+
+            <label>Prénom(s) : </label><br>
+            <input type="text" name="pnom" placeholder="Entrez le(s) prénom(s) ici" required><br><br>
+
+            <label>Télephone : </label><br>
+            <input type="tel" name="tel" pattern="[0-9]{10}" required placeholder="0707070707"><br><br>
+
+            <label>Email : </label><br>
+            <input type="email" name="email" placeholder="Entrez votre email ici" required><br><br>
+
+            <label>Commentaires : </label><br>
+            <textarea name="commentaire" cols="30" rows="5"> </textarea> <br><br>
+
+            <input type="submit" value="submit"> &nbsp; &nbsp; &nbsp; 
+            <input type="reset" value="reset">
+        </form>
+    </section>
+
+    <!-- footer --> 
+    <footer>
+        <p>---- Portfolio Merli Ama 2026 © Tous droits réservés ----</p>
+    </footer>
+</body>
+</html>
